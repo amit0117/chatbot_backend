@@ -77,7 +77,7 @@ io.on("connection", (socket) => {
     }
   });
 });
-app.get("/", (req, res) => {
+app.get("/helloworld", (req, res) => {
   return res.json({ message: "hello world" });
 });
 
